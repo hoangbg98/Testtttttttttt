@@ -1,0 +1,27 @@
+{
+    "100014235762536": {
+        "warningLeft": 0,
+        "warningReason": [
+            "test",
+            "test",
+            "test"
+        ],
+        "banned": true
+    },
+    "100016579063804": {
+        "warningLeft": 2,
+        "warningReason": [
+            "khoe gấu"
+        ],
+        "banned": false
+    },
+    "100014995758308": {
+        "warningLeft": 0,
+        "warningReason": [
+            "chê cc",
+            "chửi cc",
+            "rule 1"
+        ],
+        "banned": true
+    }
+}
