@@ -38,7 +38,7 @@ module.exports.run = async function({ api, args, event }) {
  try {
  var getms = (await axios.get(`http://ac.mp3.zing.vn/complete?type=artist,song,key,code&num=500&query=${encodeURIComponent(keywordSearch)}`)).data;
  var retrieve = getms.data[0], msg = '', num = 0, link = [];
- for (var i = 0; i < 10; i++) {
+ for (var i = 0; i < 30; i++) {
     if (typeof retrieve.song[i].id != 'undefined') {
         msg += `${num += 1}. Tên Bài hát : ${decodeURIComponent(retrieve.song[i].name)}\nCa Sĩ : ${retrieve.song[i].artist}\n◆━━━━━━━━━◆\n`;                
         link.push(retrieve.song[i].id);
